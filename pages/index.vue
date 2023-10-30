@@ -4,7 +4,9 @@
       <FsCategoriesNav :categories="categories"/>
     </div>
     <div v-if="$route.name === 'index'" class="flex flex-wrap gap-4 justify-center items-center mt-8">
-      <FsProductCard v-for="product in filteredProducts" :key="product.id" :product="product" />
+      <NuxtLink  v-for="product in filteredProducts" :key="product.id" :to="`/details/${product.id}`">
+        <FsProductCard :product="product"/>
+      </NuxtLink>
     </div>
     <NuxtChild v-else :products="filteredProducts" />
   </div>
@@ -22,7 +24,6 @@ export default {
     $axios.get('/products/categories'),
     $axios.get('/products/'),
     ])
-    console.log(productsRes.data)
     return {
       categories: categoriesRes.data,
       products: productsRes.data
