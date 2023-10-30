@@ -1,9 +1,9 @@
 <template>
-  <div class="px-6 bg-[#1E28320D] h-[100vh]">
-    <div>
+  <div class="bg-[#1E28320D] h-[100vh] overflow-hidden">
+    <div class="px-6 mx-auto max-w-7xl h-full">
       <FsHeader/>
+      <Nuxt/>
     </div>
-    <slot/>
   </div>
 </template>
 
@@ -14,7 +14,3 @@ export default {
   components: { FsHeader }
 }
 </script>
-
-<style lang="scss" scoped>
-
-</style>
