@@ -1,6 +1,8 @@
-![Vue](/static/vue-logo.png)
-![Nuxt](/static/nuxt-icon.png)
-![FakeStore](/static/fake-store-logo.png)
+<div>
+  <img src="/static/vue-logo.png" width="200" height="200" />
+  <img src="/static/nuxt-icon.png" width="200" height="200" />
+  <img src="/static/fake-store-logo.png" width="200" height="200" />
+</div>
 
 # myFakeStore
 
