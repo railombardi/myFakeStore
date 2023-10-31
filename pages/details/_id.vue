@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-auto h-full no-scrollbar">
-    <a @click="goToPreviousRoute">
+    <a class="cursor-pointer" @click="goToPreviousRoute">
       <font-awesome-icon class="pt-8" icon="arrow-left" size="lg"/>
     </a>
     <div class="flex flex-col gap-4 items-center pt-8 pb-[200px]">

@@ -6,7 +6,7 @@
    <div class="p-4">
     <div class="flex justify-between items-center">
       <span class="header-title"> FakeStore </span>
-      <font-awesome-icon @click="closeDrawer" icon="close" size="2x"/>
+      <font-awesome-icon class="close-icon" @click="closeDrawer" icon="close" size="2x"/>
     </div>
     <div class="w-full h-[1px] bg-[#E3E3E3] my-2"/>
     <ul class="mt-8">

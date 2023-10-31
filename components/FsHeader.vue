@@ -4,7 +4,7 @@
   <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl py-6">
     <font-awesome-icon class="invisible lg:visible" icon="magnifying-glass" />
     <span class="header-title"> FakeStore </span>
-    <font-awesome-icon class="lg:!hidden" icon="bars" size="lg" @click="toggleMenu"/>
+    <font-awesome-icon class="lg:!hidden menu-icon" icon="bars" size="lg" @click="toggleMenu"/>
     <div class="hidden lg:flex items-center gap-2 ">
       <font-awesome-icon :icon="['fas', 'user']" />
       Account
